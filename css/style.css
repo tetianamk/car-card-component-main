@@ -1,0 +1,76 @@
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.content {
+  text-align: left;
+  width: 100%;
+}
+.content p {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  max-width: 150px;
+  padding-bottom: 20px;
+}
+.item-first {
+  background: hsl(31, 77%, 52%);
+}
+.item-second {
+  background: hsl(184, 100%, 22%);
+}
+.item-third {
+  background: hsl(179, 100%, 13%);
+}
+.item-first,
+.item-second,
+.item-third {
+  height: 500px;
+  width: 100%;
+  padding: 50px 0 20px 50px;
+}
+.btn {
+    background-color: #fff;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 125px;
+}
+.item-second .btn {
+  color: hsl(184, 100%, 22%);
+}
+.item-third .btn {
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background: hsl(31, 77%, 52%);
+}
+.item-second .btn:hover {
+   background: hsl(184, 100%, 22%);
+}
+.item-third .btn:hover {
+  background: hsl(179, 100%, 13%);
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+@media only screen
+
+and (min-width: 700px){
+ 
+.content {
+  display: flex;
+}
+}
